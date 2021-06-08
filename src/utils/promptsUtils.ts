@@ -19,3 +19,4 @@ const checkForNewLines = (prompt: string) => {
   const randomPrompt = splitPrompt.join('\n')
   return randomPrompt
 }
+
