@@ -7,7 +7,9 @@ const Game: React.FC = (): JSX.Element => {
   return (
     <div className="game">
       <p>SCORE: {score}</p>
-      <section>PROMPT: <pre>{prompt}</pre></section>
+      <section>PROMPT:
+        <pre>{prompt}</pre>
+      </section>
 
       <pre>{inputValue}</pre>
 
